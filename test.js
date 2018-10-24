@@ -11,3 +11,9 @@ function getRepeater(repeaterId) {
 	});
 	return repeater;
 }
+
+var stackedBarId = $axure('@axhub-stackedBar-data').$().id;
+
+var res = getRepeater(stackedBarId);
+
+// 拿data res.data
