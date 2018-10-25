@@ -12,7 +12,7 @@ function getRepeater(repeaterId) {
 	return repeater;
 }
 
-var stackedBarId = $axure('@axhub-stackedBar-data').$().id;
+var stackedBarId = $axure('@axhub-stackedBar-data').$()[0].id;
 
 var res = getRepeater(stackedBarId);
 
